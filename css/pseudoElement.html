@@ -4,7 +4,13 @@
 		<title>Pseudo Element</title>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<style>
-		
+			
+			*{
+				margin:0;
+				padding:0;
+				border:0;
+				box-sizing: border-box;
+			}
 			h1::before {
 				content: "Contents before h1 tag ";
 				background-color: blue;
@@ -32,11 +38,39 @@
 			img:hover{
 				opacity: 1;
 			}
+			
+			.content{
+				display: none;
+				position: absolute;
+				background-color: red;
+				padding: 10px;
+				position: absolute;
+				top: 21px;
+				left: 0;
+				border-radius: 5px;
+			}
+			
+			.dropdown:hover  .content{
+				display: inline-block;
+			}
+			
+			.dropdown{
+				position: relative;
+				display: inline-block;
+			}
 		</style>
 	</head>
 	<body>
 		<h1>Pseudo Element</h1>
 		<img src="img1.png">
 		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+		<div class="dropdown">
+			<span>Hover on me</span>
+			<div class="content">
+				<h4>Hoverable Text</h4>
+			</div>
+		</div>
 	</body>
+	
+	
 </html>
