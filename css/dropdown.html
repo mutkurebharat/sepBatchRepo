@@ -46,9 +46,18 @@
 			.dropdown-content a {
 				text-decoration: none;
 			}
+			
+			.set-border::before {
+				content: "This is heading : ";
+			}
+			
+			.set-border::after {
+				content: " - Heading is finished here";
+			}
 		</style>
 	</head>
 	<body>
+		<h1 class="set-border"> Using Border image here</h1>
 		<div class="dropdown">
 			<div>
 				<a href="#" class="dropdown-btn">Dropdown</a>
