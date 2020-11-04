@@ -1,0 +1,420 @@
+* {
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+	border: 0;
+}
+
+	.container {
+		width: 1014px;
+		margin: 0 auto;
+	}
+	
+	
+	/* ************************************************************************************** */
+	/* *************************Header Starts Here******************************************* */
+	/* ************************************************************************************** */
+	
+	.nav-bg {
+		background-color: #4b95a1;
+	}
+	
+	.header-text {
+		float: left;
+	}
+	
+	.nav{
+		float: right;
+		padding-top: 42px;
+		padding-bottom: 33px;
+	}
+	
+	.nav li{
+		float: left;
+		list-style-type:none;
+		padding:0 24px;
+	}
+	
+	.nav a{
+		text-decoration: none;
+		color: #dce3e4;
+	}
+	
+	.clear{
+		clear: both;
+	}
+	
+	.header-text h1 {
+		font-size: 40px;
+		color: #fff;
+		padding: 30px 0 29px 0;
+	}
+	
+	
+	/* ************************************************************************************** */
+	/* **************Header Ends Here****************************************************** */
+	/* ************************************************************************************** */
+	
+	
+	
+	
+	/* ************************************************************************************** */
+	/* *************************Banner Starts Here******************************************* */
+	/* ************************************************************************************** */
+	
+	.banner-img img{
+		width: 100%;
+	}
+	
+	.banner-text h2{
+		font-size: 44px;
+		color: #bfc1c4;
+		padding-bottom: 46px;
+	}
+	
+	.banner-text{
+		position: absolute;
+		top: calc(50% - 90px);
+		left: calc(50% - 262px);
+		width: 536px;
+		text-align: center;
+	}
+	
+	.banner-text a{
+		font-size: 30px;
+		color: #e4e4e4;
+		text-decoration: none;
+		border: 3px solid #afb1b4;
+		border-radius: 5px;
+		padding: 12px 46px;
+	}
+	
+	.banner{
+		position: relative;
+	}
+	
+	/* ************************************************************************************** */
+	/* **************Banner Ends Here****************************************************** */
+	/* ************************************************************************************** */
+	
+	
+	/* ************************************************************************************** */
+	/* **************Product Section Starts Here****************************************************** */
+	/* ************************************************************************************** */
+	
+	.product-text {
+		text-align: center;
+		padding-top: 80px;
+		padding-bottom: 77px;
+	}
+	
+	.product-text h3{
+		font-size: 30px;
+		padding: 0 191px;
+		padding-bottom: 47px;
+	}
+	
+	.product-text p{
+		font-size: 14px;
+		padding: 0 99px;
+	}
+	
+	.product-img div{
+		float: left;
+		padding-bottom: 77px;
+	}
+	
+	
+	.product-one {
+		padding-left: 246px;
+	}
+	
+	.product-two {
+		padding: 0 127px;
+	}
+	
+	
+	/* ************************************************************************************** */
+	/* **************Product Section Ends Here****************************************************** */
+	/* ************************************************************************************** */
+	
+	
+	/* ************************************************************************************** */
+	/* **************Info Section Starts Here****************************************************** */
+	/* ************************************************************************************** */
+	
+	.info-section{
+		background-color: #00d089;
+	}
+	
+	.dhavan-logo{
+		float: left;
+		text-align: center;
+		padding-left: 396px;
+		padding-right: 37px;
+	}
+	
+	.info-img{
+		padding-top: 102px;
+		padding-bottom: 62px;
+	}
+	
+	.dhavan-info{
+		float: left;
+		text-align: center;
+	}
+	
+	.dhavan-info img{
+		opacity: 0.2;
+	}
+	
+	.info-text{
+		padding-bottom: 88px;
+	}
+	
+	.dhavan-info h4 {
+		font-size: 26px;
+		color: #e4e4e4;
+		padding-bottom: 15px;
+	}
+	
+	.info-text p {
+		color: #f4fcf8;
+		font-size: 18px;
+		padding: 0 21px;
+		line-height: 2;
+	}
+	
+	/* ************************************************************************************** */
+	/* **************Info Section Ends Here****************************************************** */
+	/* ************************************************************************************** */
+	
+	
+	/* ************************************************************************************** */
+	/* **************Map Section starts Here****************************************************** */
+	/* ************************************************************************************** */
+	.map{
+		position: relative;
+	}
+	
+	.map-img{
+		width: 100%;
+	}
+	
+	.map-form{
+		width: 430px;
+		height: 430px;
+		background-color:#fdfdfd;
+		border-radius: 50%;
+		padding-top: 112px;
+		text-align: center;
+		position:absolute;
+		top: 1751px;
+		left: 425px;
+		opacity: 0.8;
+	}
+	
+	.name-field{
+		width: 275px;
+		height: 31px;
+		border: 1px solid #d8d8d8;
+		border-radius: 3px;
+		margin-bottom: 14px
+	}
+	
+	.message-field{
+		width: 275px;
+		height: 80px;
+		border: 1px solid #d8d8d8;
+		border-radius: 3px;
+		margin-bottom: 32px;
+	}
+	
+	
+	
+	/* ************************************************************************************** */
+	/* **************Map Section Ends Here****************************************************** */
+	/* ************************************************************************************** */
+	
+	
+	/* ************************************************************************************** */
+	/* **************Footer Section Starts Here****************************************************** */
+	/* ************************************************************************************** */
+	
+	.footer{
+		background-color: #00d089;
+		margin-top: -4px;
+	}
+	
+	.footer h4{
+		font-size: 14px;
+		color: #e9f9f1;
+		padding-top:14px;
+		padding-bottom:16px;
+		text-align: center;
+	}
+	
+	
+	/* ************************************************************************************** */
+	/* **************Footer Section Ends Here****************************************************** */
+	/* ************************************************************************************** */
+	
+	
+	/* ************************************************************************************** */
+	/* **************Media Queries Start****************************************************** */
+	/* ************************************************************************************** */
+	
+	@media (max-width:1365px){
+		.map-form { 
+			top: 1600px;
+		}
+	}
+	
+	@media (max-width:1200px){
+		.container{
+			width: 962px;
+		}
+		
+		.map-form { 
+			top: 1522px;
+			left: calc(50% - 215px);
+		}
+	}
+	
+	@media (max-width:992px){
+		.container{
+			width: 738px;
+		}
+		
+		.product-one {
+			padding-left: 153px;
+		}
+		
+		.dhavan-logo {
+			padding-left: 17px;
+		}
+		
+		.map-form {
+		width: 300px;
+		height: 300px;
+		padding-top: 50px;
+		top: 1568px;
+		left: calc(50% - 150px);
+		}
+		
+		.name-field {
+			width: 200px;
+			height: 31px;
+		}
+		
+		.message-field {
+			width: 200px;
+			height: 80px;
+			margin-bottom: 6px;
+		}
+		
+		@media (max-width:768px){
+			.container{
+				width:438px
+			}
+			
+			.header-text {
+				padding-left: 140px;
+			}
+			
+			.nav {
+				padding-top: 0;
+			}
+			
+			.banner-text h2 {
+				font-size: 28px;
+			}
+			
+			.banner-text a {
+				font-size: 20px;
+			}
+			
+			.banner-text {
+				width: 480px;
+				top: calc(50% - 77px);
+			}
+			
+			.product-text h3 {
+				padding: 0px 0px;
+				padding-bottom: 25px;
+			}
+			
+			.product-one {
+				padding-left: 0;
+			}
+		}
+		
+		@media (max-width:468px){
+			.container{
+				width:290px
+			}
+			
+			.header-text {
+				padding-left: 58px;
+			}
+			
+			.nav li {
+				padding: 0px 6px;
+			}
+			
+			.banner-text {
+				top: calc(50% - 38px);
+			}
+			
+			.banner-text h2 {
+				font-size: 12px;
+				padding-bottom: 22px;
+			}
+			
+			.banner-text a {
+				padding: 4px 19px;
+			}
+			
+			.product-text {
+				padding-top: 20px;
+				padding-bottom: 32px;
+			}
+			
+			.product-text p {
+				padding: 0 20px;
+			}
+			
+			.product-two {
+				padding: 0 60px;
+			}
+			
+			.product-img div {
+				padding-bottom: 10px;
+			}
+			
+			.info-img {
+				padding-top: 18px;
+				padding-bottom: 0px;
+			}
+			
+			.dhavan-info img {
+				width: 100px;
+			}
+			
+			.dhavan-info h4 {
+				font-size: 12px;
+			}
+			
+			.dhavan-info {
+				padding-top: 22px;
+			}
+			
+			.map-img {
+				width: 100%;
+				height: 350px;
+			}
+			
+			.map-form {
+				top: 1330px;
+			}
+		}
